@@ -72,7 +72,7 @@ function App(){
         
       <video crossOrigin="anonymous" ref={videoRef} autoPlay></video>
       </div>
-      <canvas ref={canvasRef} width="940" height="650"
+      <canvas ref={canvasRef} width="100%" height="100%"
       className="appcanvas"/>
     </div>
     )
